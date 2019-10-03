@@ -30,9 +30,7 @@ const kennan = {
   name: "Kennan",
   email: "kdiben1@tinypic.com",
   gender: "M",
-  speak: function () {
-    return "Hello, my name is Kennan!";
-  }
+  speak: () => "Hello, my name is Kennan!"
 }
 
 const keven = {
@@ -54,9 +52,7 @@ const antonietta = {
   name: "Antonietta",
   email: "adaine5@samsung.com",
   gender: "F",
-  multiplyNums: function (num1, num2) {
-    return num1 * num2;
-  }
+  multiplyNums: (num1, num2) => num1 * num2
 }
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
